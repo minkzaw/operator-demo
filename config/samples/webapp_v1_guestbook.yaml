@@ -8,3 +8,4 @@ metadata:
 spec:
   size: 1
   configMapName: "testing"
+  replicas: 3

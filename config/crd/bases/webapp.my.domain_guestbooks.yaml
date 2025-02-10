@@ -41,12 +41,15 @@ spec:
             properties:
               configMapName:
                 type: string
+              replicas:
+                type: integer
               size:
                 description: Foo is an example field of Guestbook. Edit guestbook_types.go
                   to remove/update
                 type: integer
             required:
             - configMapName
+            - replicas
             - size
             type: object
           status:

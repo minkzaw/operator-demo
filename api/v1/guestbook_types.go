@@ -31,6 +31,7 @@ type GuestbookSpec struct {
 	// Foo is an example field of Guestbook. Edit guestbook_types.go to remove/update
 	Size          int    `json:"size"`
 	ConfigMapName string `json:"configMapName"`
+	Replicas      int    `json:"replicas"`
 }
 
 // GuestbookStatus defines the observed state of Guestbook.
